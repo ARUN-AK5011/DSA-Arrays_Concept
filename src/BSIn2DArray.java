@@ -9,8 +9,9 @@ public class BSIn2DArray {
                 {16, 26, 36, 46},
                 {19, 29, 39, 49}
         };
+        int target = 1;
 
-        System.out.println(Arrays.toString(SearchTarget(arr, 1)));
+        System.out.println(Arrays.toString(SearchTarget(arr, target)));
     }
 
     static int[] SearchTarget(int[][] arr, int target){
